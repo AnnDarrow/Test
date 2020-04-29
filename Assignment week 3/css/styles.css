@@ -1,0 +1,115 @@
+body {
+  font-size: 16px;
+  color: black;
+}
+#header-nav{
+    background-color: darkgray;
+    border-radius: 0;
+    border:0;
+    height: 80px;
+}
+.navbar-brand h1{
+    /* Site Name*/
+    font-family: Cursive,Comic sans,sans-serif,comic serif ms;
+    color:black;
+    margin-left: auto;
+    line-height: .75;
+    font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top: -50px;
+}
+#collapsable-nav{
+    visibility:collapse;
+    border-color: black;
+    border-style: solid;
+    border-width:medium;
+}
+
+#nav-list li{
+    /*display: block;*/
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-top-width: 0px;
+    border-left:0px;
+    border-right: 0px;
+    font-weight:bold;
+    font-family: Cursive,Comic sans,sans-serif,comic serif ms;
+    font-size: 1.5em;
+}
+#nav-list #Chicken{
+    padding-bottom: 5px;
+}
+
+#nav-list #Beef{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#nav-list #Sushi{
+    border-bottom: 0px;
+    padding-top: 5px;
+}
+
+/* END HEADER*/
+h2{
+    font-family: Cursive,Comic sans,sans-serif,comic serif ms;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.col{
+    background-color: darkgray;
+    font-family: Cursive,Comic sans,sans-serif,comic serif ms;
+    font-size: 25px;
+    padding:3px 10px 10px 10px; 
+}
+.col p{
+    padding: 10px;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+@media(min-width:768px){
+    .navbar-brand h1{
+        padding-top: auto;
+        padding-bottom: auto;
+        text-align: left;
+    }
+    
+    h2{
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 767px){
+   /*Header */
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+        
+    }
+    .navbar-brand h1{/*Site Name*/
+    padding-top: auto;
+    font-size: 5vw; /* 1 vw is 1% of viewport width */
+    padding-bottom: auto;
+    text-align: left;
+    
+    }
+    
+    #collapsable-nav{
+        visibility: visible;
+    }
+    
+    /*HEADER END*/    
+}
